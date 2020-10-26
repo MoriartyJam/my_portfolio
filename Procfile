@@ -1,1 +1,1 @@
-web: qunicorn personal_portfolio.wsqi
+web: gunicorn personal_portfolio.wsgi --log-file -
